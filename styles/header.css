@@ -1,0 +1,150 @@
+.header-wrapper {
+    height: 75px;
+    padding-left: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .nav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100px;
+}
+
+/*Left column styles*/
+.header-wrapper > .nav-wrapper > .banner-image {
+    display: flex;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+.header-wrapper > .nav-wrapper > .banner-image > img {
+    width: 216px;
+    height: 100%;
+}
+
+/*Center column styles*/
+ .links-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 700px;
+}
+
+.links-wrapper > .label {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3em; 
+    color: rgb(235, 224, 116);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.links-wrapper > .nav-links {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px; 
+    padding-left: 10px;
+    padding-right: 60%;
+}
+
+.links-wrapper > .nav-links > .link {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.links-wrapper > .nav-links > .link a {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.spark-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: -90px;
+}
+
+.spark-wrapper > .spark-label {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3em;
+    color: rgb(155, 154, 155); 
+}
+
+ .spark-wrapper > .spark-chevron i {
+    font-size: 1.3em;
+    text-align: right;
+}
+
+/*Right column styles*/
+.header-wrapper > .buttons-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .buttons-wrapper > .account-button {
+    width: 100px;
+    height: 48px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.1em;
+    background-color: rgb(55, 56, 63);
+    border: none;
+    border-radius: 3px;
+}
+
+.header-wrapper > .buttons-wrapper > .account-button > .button-chevron {
+    padding-left: 8px;
+    padding-top: 3px;
+    align-self: center;
+    font-size: 1em;
+    color: rgb(1, 212, 115);
+}
+
+.header-wrapper > .buttons-wrapper > .search-button {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(122, 124, 140);
+    font-weight: 500;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+}
+
+.header-wrapper > .buttons-wrapper > .account-button:focus, .header-wrapper > .buttons-wrapper > .search-button:focus {
+    outline: none;
+}
+
+.header-wrapper > .buttons-wrapper > .account-button:hover {
+    background-color: #777777;
+}
+
+.header-wrapper > .buttons-wrapper > .search-button:hover {
+    color: #888888;
+}
